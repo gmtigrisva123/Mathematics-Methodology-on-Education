@@ -73,6 +73,6 @@ open src/index.html
 
 ---
 
-## Licence
+## License
 
 © 2025 Lê Trần Khánh Minh · Hồ Việt Anh · No One Left Behind - a nonprofit organization helping visually impaired students with other social activities. All rights reserved.
