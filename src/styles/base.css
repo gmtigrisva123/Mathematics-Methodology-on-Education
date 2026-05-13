@@ -1,0 +1,62 @@
+/* ============================================================
+   BASE.CSS
+   Reset · CSS Custom Properties · Typography
+   Pedagogical Framework — Math4Money Initiative
+   ============================================================ */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Design Tokens ── */
+:root {
+  /* Ink scale */
+  --ink:        #1a1814;
+  --ink-mid:    #3d3a35;
+  --ink-light:  #6b6760;
+  --ink-faint:  #9b9893;
+
+  /* Paper scale */
+  --paper:      #faf8f4;
+  --paper-warm: #f3f0e8;
+  --paper-rule: #e8e4d8;
+
+  /* Accent — Red */
+  --accent:       #8b3a2a;
+  --accent-light: #c4724f;
+  --accent-faint: #f0e6e2;
+
+  /* Accent — Teal */
+  --teal:       #2a5e6e;
+  --teal-light: #4a8fa0;
+  --teal-faint: #e2eff2;
+
+  /* Accent — Gold */
+  --gold:       #9a7b2a;
+  --gold-faint: #f5f0e0;
+
+  /* Typefaces */
+  --serif: 'EB Garamond', Georgia, serif;
+  --sans:  'DM Sans', system-ui, sans-serif;
+  --mono:  'DM Mono', monospace;
+
+  /* Layout */
+  --max: 780px;
+  --col: 540px;
+}
+
+/* ── Base Typography ── */
+html {
+  font-size: 17px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}

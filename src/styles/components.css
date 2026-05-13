@@ -1,0 +1,172 @@
+/* ============================================================
+   COMPONENTS.CSS
+   Method cards · Value chips · Abstract block · Lists
+   Pedagogical Framework — Math4Money Initiative
+   ============================================================ */
+
+/* ── Abstract ── */
+.abstract {
+  background: var(--paper-warm);
+  border-left: 3px solid var(--accent);
+  padding: 2rem 2.5rem;
+  margin-bottom: 0;
+}
+
+.abstract-label {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.abstract p {
+  font-size: 0.95rem;
+  color: var(--ink-mid);
+  font-style: italic;
+  line-height: 1.8;
+}
+
+/* ── Method Grid ── */
+.method-grid {
+  display: grid;
+  gap: 1.5px;
+  background: var(--paper-rule);
+  border: 1.5px solid var(--paper-rule);
+  margin-bottom: 0;
+}
+
+/* ── Method Card ── */
+.method-card {
+  background: var(--paper);
+  padding: 2rem 2.25rem;
+  position: relative;
+}
+
+.method-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+}
+
+.method-card.accent-red::before  { background: var(--accent); }
+.method-card.accent-teal::before { background: var(--teal); }
+.method-card.accent-gold::before { background: var(--gold); }
+
+.method-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.method-num {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: var(--ink-faint);
+  padding-top: 0.35rem;
+  min-width: 1.5rem;
+  text-transform: uppercase;
+}
+
+h3.method-name {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--ink);
+  line-height: 1.3;
+  margin-bottom: 0.15rem;
+}
+
+.method-abbr {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.05em;
+}
+
+.method-tagline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--ink-light);
+  margin-left: 2.5rem;
+  margin-bottom: 1.25rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--paper-rule);
+}
+
+.method-body {
+  margin-left: 2.5rem;
+}
+
+.method-body p {
+  font-size: 0.93rem;
+  color: var(--ink-mid);
+  margin-bottom: 0.75rem;
+  line-height: 1.75;
+}
+
+.method-body p:last-child { margin-bottom: 0; }
+
+.method-sub {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin: 1rem 0 0.5rem;
+}
+
+/* ── Method List ── */
+.method-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0.75rem;
+}
+
+.method-list li {
+  font-size: 0.88rem;
+  color: var(--ink-mid);
+  padding: 0.2rem 0;
+  padding-left: 1rem;
+  position: relative;
+  line-height: 1.65;
+}
+
+.method-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--ink-faint);
+  font-size: 0.8rem;
+}
+
+/* ── Value Chips ── */
+.value-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 0.25rem 0.7rem;
+  border-radius: 2px;
+  margin: 0.2rem 0.2rem 0 0;
+}
+
+.value-chip.red  { background: var(--accent-faint); color: var(--accent); }
+.value-chip.teal { background: var(--teal-faint);   color: var(--teal);   }
+.value-chip.gold { background: var(--gold-faint);   color: var(--gold);   }
+
+.value-chip::before {
+  content: '✓';
+  font-size: 0.7rem;
+}

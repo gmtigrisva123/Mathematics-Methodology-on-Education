@@ -1,0 +1,131 @@
+/* ============================================================
+   LAYOUT.CSS
+   Page wrapper · Grid · Spacing · Section structure
+   Pedagogical Framework — Math4Money Initiative
+   ============================================================ */
+
+/* ── Page Wrapper ── */
+.page {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 5rem 2.5rem;
+}
+
+.page + .page {
+  border-top: 1px solid var(--paper-rule);
+}
+
+/* ── Section Headers ── */
+.section-num {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 0.5rem;
+}
+
+h2.section-title {
+  font-family: var(--serif);
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
+}
+
+.section-intro {
+  font-size: 1rem;
+  color: var(--ink-mid);
+  margin-bottom: 2.5rem;
+  max-width: var(--col);
+  line-height: 1.8;
+}
+
+/* ── Theory Grid ── */
+.theory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1px;
+  background: var(--paper-rule);
+  border: 1px solid var(--paper-rule);
+}
+
+.theory-card {
+  background: var(--paper);
+  padding: 1.5rem 1.75rem;
+}
+
+.theory-name {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 0.35rem;
+}
+
+.theory-source {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: var(--ink-faint);
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.03em;
+}
+
+.theory-desc {
+  font-family: var(--serif);
+  font-size: 0.85rem;
+  color: var(--ink-mid);
+  line-height: 1.65;
+}
+
+/* ── Footer ── */
+.doc-footer {
+  border-top: 1px solid var(--paper-rule);
+  padding: 2.5rem 2.5rem;
+  max-width: var(--max);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  line-height: 1.9;
+}
+
+.footer-left strong {
+  color: var(--ink-light);
+  font-weight: 500;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-project {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--ink-mid);
+}
+
+.footer-version {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: var(--ink-faint);
+  margin-top: 0.25rem;
+}
+
+/* ── Print ── */
+@media print {
+  .cover      { min-height: auto; padding: 4rem 2rem; }
+  .cycle-section { padding: 3rem 2rem; }
+}

@@ -1,0 +1,182 @@
+/* ============================================================
+   SECTIONS.CSS
+   Cover · Core Instructional Cycle · Dark-background sections
+   Pedagogical Framework — Math4Money Initiative
+   ============================================================ */
+
+/* ── Cover ── */
+.cover {
+  background: var(--ink);
+  color: var(--paper);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.cover::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--gold) 50%, var(--teal) 100%);
+}
+
+.cover-rule {
+  width: 48px;
+  height: 1px;
+  background: var(--paper-rule);
+  opacity: 0.4;
+  margin: 1.5rem auto;
+}
+
+.cover-eyebrow {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent-light);
+  margin-bottom: 2.5rem;
+}
+
+.cover-title {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  max-width: 680px;
+  color: #f0ece4;
+}
+
+.cover-subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: rgba(240,236,228,0.6);
+  margin-top: 0.75rem;
+  max-width: 520px;
+}
+
+.cover-meta {
+  margin-top: 4rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: rgba(240,236,228,0.5);
+  letter-spacing: 0.05em;
+  line-height: 2;
+}
+
+.cover-meta strong {
+  color: rgba(240,236,228,0.8);
+  font-weight: 500;
+}
+
+/* ── Core Instructional Cycle ── */
+.cycle-section {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 4rem 2.5rem;
+  max-width: 100%;
+}
+
+.cycle-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.cycle-label {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent-light);
+  margin-bottom: 0.5rem;
+}
+
+.cycle-title {
+  font-family: var(--serif);
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: #f0ece4;
+  margin-bottom: 0.5rem;
+}
+
+.cycle-subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: rgba(240,236,228,0.5);
+  margin-bottom: 3rem;
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+.cycle-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5px;
+  background: rgba(255,255,255,0.06);
+  border: 1.5px solid rgba(255,255,255,0.06);
+  margin-bottom: 2rem;
+}
+
+.cycle-step {
+  background: #231f1a;
+  padding: 1.5rem 1.75rem;
+}
+
+.cycle-step-num {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  color: var(--accent-light);
+  margin-bottom: 0.6rem;
+}
+
+.cycle-step-name {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #e8e4dc;
+  margin-bottom: 0.4rem;
+  line-height: 1.35;
+}
+
+.cycle-step-desc {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.78rem;
+  color: rgba(232,228,220,0.45);
+  line-height: 1.55;
+}
+
+.cycle-step.emphasis {
+  background: #31201a;
+}
+
+.cycle-step.emphasis .cycle-step-name {
+  color: var(--accent-light);
+}
+
+.cycle-note {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: rgba(240,236,228,0.4);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding-top: 1.25rem;
+  line-height: 1.7;
+}
+
+.cycle-note em {
+  color: rgba(240,236,228,0.65);
+  font-style: normal;
+  font-weight: 500;
+}
