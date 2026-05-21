@@ -37,7 +37,7 @@
 ## Preview
 
 <div align="center">
-  <img src="assets/framework-preview-v2.png" alt="Framework website preview" width="860" />
+  <img src="assets/framework-preview-macbook.png" alt="3D MacBook preview of the framework website" width="920" />
 </div>
 
 <table>
@@ -152,7 +152,8 @@ Full references are available in [docs/REFERENCES.md](docs/REFERENCES.md).
 ```text
 Mathematics-Methodology-on-Education/
 |-- assets/
-|   `-- framework-preview-v2.png
+|   |-- framework-logo.svg
+|   `-- framework-preview-macbook.png
 |-- .github/
 |   `-- workflows/
 |       `-- static.yml
