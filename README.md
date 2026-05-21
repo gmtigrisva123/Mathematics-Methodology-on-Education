@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/framework-logo.svg" alt="Framework logo" width="180" />
+
 # Mathematics Methodology on Education
 
 ### Unique Frameworks for Teaching Mathematics to Visually Impaired Children
