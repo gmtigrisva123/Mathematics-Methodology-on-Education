@@ -50,6 +50,7 @@
       <p>
         <a href="#featured-frameworks">Featured Frameworks</a><br />
         <a href="#framework-summary">Framework Summary</a><br />
+        <a href="#real-use">Real Use</a><br />
         <a href="#project-leadership">Project Leadership</a><br />
         <a href="#why-it-matters">Why It Matters</a><br />
         <a href="#theoretical-grounding">Theoretical Grounding</a><br />
@@ -95,7 +96,7 @@
 
 <div align="center">
 
-### [Featured Frameworks](#featured-frameworks) | [Framework Summary](#framework-summary) | [Project Leadership](#project-leadership) | [Why It Matters](#why-it-matters) | [Quick Start](#quick-start)
+### [Featured Frameworks](#featured-frameworks) | [Framework Summary](#framework-summary) | [Real Use](#real-use) | [Project Leadership](#project-leadership) | [Why It Matters](#why-it-matters) | [Quick Start](#quick-start)
 
 </div>
 
@@ -162,6 +163,36 @@ The collection is especially centered on rational numbers, where many students s
 7. Multimedia Reinforcement
 
 > `Student Explanation` is the anchor phase because it exposes actual reasoning, not surface imitation.
+
+</details>
+
+---
+
+<a id="real-use"></a>
+
+<details>
+<summary><strong>Real Use</strong></summary>
+
+<br />
+
+## Real Use
+
+This framework has been used in real teaching work with visually impaired students in grades 7 and 8.
+
+The one-month parent feedback recorded in `beforeandafter_1_month_metrics.xlsx` shows:
+
+| Group | Real use evidence |
+| --- | --- |
+| Grade 8 | Scores moved from `3, 2, 2, 2, 3` before to `4, 5, 4, 5, 5` after one month across knowledge uptake, confidence, concentration, initiative, and participation |
+| Grade 7 | One recorded case remained at `5, 5, 5, 5, 5` before and after one month, showing sustained strong performance; another moved from `2, 2, 3, 2, 3` to `3, 3, 3, 3, 4` |
+
+Parent feedback in the same file also describes visible change in student behaviour and learning:
+
+- “Con thích học hơn, và tự tìm hiểu thêm những gì liên quan đến buổi học, có trách nhiệm với nhiệm vụ được giao”
+- “Con đã có sự tiến bộ rất tốt trong học tập và đa rất mạnh dạn trả lời các câu hỏi của các anh chị ạ”
+- “Sau một tháng, Kiều Linh tiến bộ rõ rệt, tự tin khi giao tiếp trực tiếp và bằng điện thoại, Tiếng Anh tiến bộ hơn. Toán chưa chuyển biến rõ rệt.”
+
+This section reflects actual classroom use rather than a purely theoretical framework.
 
 </details>
 
