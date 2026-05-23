@@ -179,6 +179,31 @@ The collection is especially centered on rational numbers, where many students s
 
 This framework has been used in real teaching work with visually impaired students in grades 7 and 8.
 
+The score values in this section were derived from the parent survey used for the one-month evaluation process:
+
+- [Google Forms survey](https://docs.google.com/forms/d/1J3JWsfPFdHRi28TigvbV4umkDpxewW5u5eS0VV7jRpU/edit?usp=forms_home&ouid=113644280705264055738&ths=true)
+
+<table>
+  <tr>
+    <td width="100%" valign="top">
+      <h3>Survey Preview</h3>
+      <p><strong>Parent follow-up survey for one-month evaluation</strong></p>
+      <p>This survey was used to collect before-and-after parent ratings and qualitative observations after the students joined the teaching program.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Source-Google%20Forms-0f9d58?style=for-the-badge" alt="Google Forms" />
+        <img src="https://img.shields.io/badge/Use-One--Month%20Evaluation-2563eb?style=for-the-badge" alt="One-Month Evaluation" />
+        <img src="https://img.shields.io/badge/Respondents-Parents-f59e0b?style=for-the-badge" alt="Parents" />
+      </p>
+      <p>
+        <a href="https://docs.google.com/forms/d/1J3JWsfPFdHRi28TigvbV4umkDpxewW5u5eS0VV7jRpU/edit?usp=forms_home&ouid=113644280705264055738&ths=true">Open Survey</a>
+      </p>
+      <blockquote>
+        <p>Rating areas used in the score table: knowledge uptake, confidence, concentration, initiative, and participation.</p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+
 The one-month parent feedback recorded in `beforeandafter_1_month_metrics.xlsx` shows:
 
 | Group | Real use evidence |
