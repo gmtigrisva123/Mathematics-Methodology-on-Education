@@ -103,7 +103,7 @@
 
 <a id="featured-frameworks"></a>
 
-<details open>
+<details>
 <summary><strong>Featured Frameworks</strong></summary>
 
 <br />
@@ -120,7 +120,7 @@ The collection is especially centered on rational numbers, where many students s
 
 <a id="framework-summary"></a>
 
-<details open>
+<details>
 <summary><strong>Framework Summary</strong></summary>
 
 <br />
@@ -169,7 +169,7 @@ The collection is especially centered on rational numbers, where many students s
 
 <a id="project-leadership"></a>
 
-<details open>
+<details>
 <summary><strong>Project Leadership</strong></summary>
 
 <br />
@@ -193,7 +193,7 @@ This makes the project legible not only as a set of ideas, but as a led educatio
 
 <a id="why-it-matters"></a>
 
-<details open>
+<details>
 <summary><strong>Why It Matters</strong></summary>
 
 <br />
@@ -289,7 +289,7 @@ Mathematics-Methodology-on-Education/
 
 <a id="quick-start"></a>
 
-<details open>
+<details>
 <summary><strong>Quick Start</strong></summary>
 
 <br />
@@ -311,7 +311,7 @@ No build step is required.
 
 <a id="documentation"></a>
 
-<details open>
+<details>
 <summary><strong>Documentation</strong></summary>
 
 <br />
